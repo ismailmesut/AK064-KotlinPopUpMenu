@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinpopupmenu"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinpopupmenu"
         minSdk = 24
